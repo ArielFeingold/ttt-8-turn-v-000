@@ -38,6 +38,7 @@ def turn(board)
      move(board, index, token = "X")
      display_board(board)
   else
+    puts "Invalid Move"
     turn(board)
   end
 end
